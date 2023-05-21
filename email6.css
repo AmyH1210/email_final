@@ -1,0 +1,139 @@
+/* set body height */
+body {
+    height:100vh;
+    background-color:rgb(246, 232, 247);
+    
+}
+
+/* Set search bar input bar width */
+.form-control{
+    width: 25vw;
+    min-width: 20vw;
+}
+
+/* Set search bar button color */
+.btn{
+  color:aliceblue;
+  border: 1px solid rgb(88, 88, 88);
+}
+
+/* Set navbar toggler color */
+.navbar-toggler{
+    color:aliceblue;
+}
+
+/* Set offcanvas background color and padding */
+.offcanvas{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding-left: 2vw;
+   
+}
+
+/* Set offcanvas header margin */
+.offcanvas-header{
+    margin-top: 3vh;  
+}
+
+/* set a current selected item */
+[aria-selected] {
+    font-weight: bold;
+  }
+
+/* Set offcanvas text color to white */
+.offcanvas-header, .nav-link{
+    color: rgb(250, 248, 252);
+}
+
+/* Set left side padding for offcanvas text  */
+.nav-link, .dropdown-menu{
+    padding-left: 2vw;
+}
+
+/* Set container height */
+.container{
+    height:100vh;
+    
+}
+
+/* menu column style and margin top */
+.menu{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin-top: 4vh;
+}
+
+/* Set text style for h1 */
+h1{ 
+    font-family: 'MAHENA', sans-serif;    
+}
+
+strong{
+    color: #faf9fa;
+    font-size: larger;
+    
+}
+
+/* Set a mail logo image size and automatically scale down images to fit on the screen. */
+.message_logo{
+    width: 4vw;
+    height:4vh;
+    max-inline-size: 100%;   
+    block-size: auto;     /*the aspect-ratio of the images will remain constant*/
+    aspect-ratio: 2/1;
+    object-fit: contain;    /*tells the browser to preserve the image's aspect ratio */    
+}
+
+
+/* Set margin top for email list of email list column */
+.emails_li_column{
+    margin-top: 13vh;
+}
+
+
+/* Set margin top and bottom for title and compose button in menu column */
+.title{   
+    margin-bottom: 2vh;
+    margin-top: 7vh;
+}
+
+.compose{   
+    margin-bottom: 5vh;
+}
+
+/* Set margin top  for email detail column */
+.contents_column{
+    margin-top: 4vh;
+    border: 1px solid rgb(88, 88, 88);
+
+}
+   
+
+
+/* Set margin top  for email title of email detail column */
+.email-title{
+    margin-top:5vh ;
+}
+
+/* Set a border and style for sender_reciever_date box */
+.sender_reciever_date{
+    margin-top: 3vh;
+    border: 2px solid rgb(112, 109, 112);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Set margin and padding for email detail section of email detail column  */
+.email-sentence{
+    margin-top: 3vh;
+    padding: 5px 5px 5px 5px;
+}
+
+
+/* Set the reply button style of  email detail column  */
+#replyForm{
+    border: 2px solid  rgb(112, 109, 112);
+    padding: 10px;
+    border-radius: 20px;
+   
+}
